@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Halaman_Utama.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Halaman_Materi.unity
+    guid: 88cff9a01eb239d4ca6d0d1ff1481d56
+  - enabled: 1
+    path: Assets/Scenes/Halaman_Kuis.unity
+    guid: 7a3eda7c9a2aead4cb7c11c0d7a4b5f1
+  - enabled: 1
+    path: Assets/Scenes/Halaman_Main.unity
+    guid: df91fa09d191ae1429c0ce23c507f5d4
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 107f07c46246c5e40aefa1308b51e15e, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 7639d03cae9c05b40803b1050a35b7ed, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3fd1a006d7cefc045b33466860a64c4d, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

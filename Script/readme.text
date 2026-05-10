@@ -4,18 +4,35 @@
 
 ## Script HalamanMain
 - Script ini mengatur interaksi utama pada halaman AR yang menampilkan berbagai jenis objek 3D Tulang Daun
-  berdasarkan marker ya
-  Melalui script ini, tombol pada halaman utama dapat mengarahkan pengguna ke Halaman Materi, K
+  berdasarkan marker yang terdeteksi oleh vuforia. Script ini juga mengatur tombol-tombol yang muncul ketika
+  sebuah marker dikenali serta mengontrol tampilan panel biji dan animasi daun.
+
 ## Script CanvasPengaturan
+- Script ini digunakan untuk mengatur volume SFX (Sound Effect) dan BGM (Background Music) Melalui UI Slider
+  pada pengaturan unity. Script ini bekerja dengan cara membaca nilai volume dari SoundManager dan memperbaruinya 
+  ketika pengguna menggeser slider.
 
 ## Script SoundManager
+- Script ini berfungsi untuk pengelola suara utama (global sound controller) di dalam game. SoundManager memastikan
+  suara seperti sound effect (SFX) dan background music (BGM) dapat diputar dari manapun, serta menjaga agar hanya 
+  ada satu SoundManager yang aktif sepanjang permainan.
 
 ## Script SlideMateri
+- Script ini digunakan untuk membuat sistem slide horizontal menggunakan scrollbar di Unity. Pengguna dapat berpindah
+  slide dengan cara menggeser maupun menggunakan tombol kiri/kanan. Script ini juga mempunyai fitur auto-snap, yaitu 
+  slide otomatis melompat keposisi terdekat.
 
 ## Script PopUpSkor
+- Script ini digunakan untuk menampilkan dan menutup pop-up skor pada UI. Nilai skor diambil dari PlayerPerfs. Yaitu 
+tempat penyimpanan data sederhana milik unity.
 
 ## Script Hasil
+- Script ini digunakan untuk menampilkan skor akhir pada halaman hasil kuis. Nilai skor diperoleh dari PlayerPrefs yang
+  sebelumnya disimpan ketika pengguna menjawab soal.
 
 ## Script Jawaban
+- Script ini digunakan untuk mengatur logika kuis, mulai dari pengecekan jawaban, pengacakan urutan soal, menampilkan pop-up
+  benar/salah, perhitungan skor, hingga menampilkan panel hasil akhir.
 
 ## Script ButtonKembali
+- Script ini digunakan untuk memindahkan pengguna kembali ke halaman utama ketika tombol ditekan.

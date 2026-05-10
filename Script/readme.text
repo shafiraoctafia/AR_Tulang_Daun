@@ -1,1 +1,21 @@
+## Script HalamanUtama
+- Script ini berfungsi sebagai penghubung antar-menu setelah halaman utama.
+  Misalkan, Dari halaman utama menuju halaman materi, atau halaman Main.
 
+## Script HalamanMain
+- Script ini mengatur interaksi utama pada halaman AR yang menampilkan berbagai jenis objek 3D Tulang Daun
+  berdasarkan marker ya
+  Melalui script ini, tombol pada halaman utama dapat mengarahkan pengguna ke Halaman Materi, K
+## Script CanvasPengaturan
+
+## Script SoundManager
+
+## Script SlideMateri
+
+## Script PopUpSkor
+
+## Script Hasil
+
+## Script Jawaban
+
+## Script ButtonKembali

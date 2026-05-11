@@ -1,1 +1,16 @@
+1. Folder Image
+   Folder ini berisi seluruh gambar yang digunakan dalam proyek, seperti
+   Gambar UI (ikon, tombol, background).
 
+2. Folder Objek3D
+   Folder ini digunakan untuk menyimpan model objek 3D yang digunakan dalam aplikasi, seperti
+   objek 3D tulang daun menjari, menyirip, melengkung, dan sejajar. Objek 3D daun singkong, sirih,
+   bambu, dan daun mangga.
+
+3. Folder Pop_up
+   Berisi elemen tampilan pop-up benar dan salah.
+
+4. Folder Sound
+   Tempat menyimpan semua audio yang digunakan dalam aplikasi, seperti:
+   - Sound Effect
+   - BGM (Background Music)
